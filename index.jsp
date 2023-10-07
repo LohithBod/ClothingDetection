@@ -8,13 +8,18 @@
       width: 200px;
       height: 200px;
       border: 1px solid black;
-      
+    
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   </style>
 </head>
 <body>
   <h1> Clothing Detector</h1>
-  <label for="file-input">Choose file to upload</label>
+  <label id = "label" for="file-input">Choose file to upload</label>
   <input type="file" id="file-input">
   <div id="image-container"></div>
 
