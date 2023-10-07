@@ -8,14 +8,13 @@
       width: 200px;
       height: 200px;
       border: 1px solid black;
-    
+      
     }
-    
   </style>
 </head>
 <body>
   <h1> Clothing Detector</h1>
-  <label id = "label" for="file-input">Choose file to upload</label>
+  <label for="file-input">Choose file to upload</label>
   <input type="file" id="file-input">
   <div id="image-container"></div>
 
