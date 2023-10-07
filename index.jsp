@@ -10,11 +10,7 @@
       border: 1px solid black;
     
     }
-    .container{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+    
   </style>
 </head>
 <body>
